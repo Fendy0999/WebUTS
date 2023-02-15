@@ -10,8 +10,18 @@ body {
     font-family: 'Open Sans ', sans-serif;
 }
 
+nav{
+    justify-content: center;
+}
+
+.wrapper-nav{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15rem;
+}
+
 .wrapper {
-    width: 1100px;
+    max-width: 1100px;
     margin: auto;
     position: relative;
 }
@@ -67,7 +77,12 @@ nav ul li a:hover {
 section {
     margin: auto;
     display: flex;
+    flex-wrap: wrap;
     margin-bottom: 50px;
+}
+
+section img{
+    max-width: 100%;
 }
 
 .kolom {
