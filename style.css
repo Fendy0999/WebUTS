@@ -1,7 +1,7 @@
 *{
     text-decoration: none;
     margin: 0;
-    padding: 0px;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     list-style: none;
@@ -47,8 +47,7 @@ nav {
     margin: auto;
     display: flex;
     line-height: 80px;
-    position: sticky;
-    position: -webkit-sticky;
+    position: relative;
     top: 0;
     background: #f5f5dc;
     z-index: 1;
@@ -148,5 +147,22 @@ p {
 
 .tengah {
     text-align: center;
+    width: 100%;
+}
+
+.awan-batik{
+    background: url('./awan_batik_1.png');
+    background-size: contain;
+    background-position: right;
+    max-width: 500px;
+    aspect-ratio: auto 1/1;
+    position: absolute;
+    width: 100%;
+    top: 200px;
+    z-index: -1;
+}
+
+.wrapper .home img{
+    max-width: 250px;
     width: 100%;
 }
