@@ -151,18 +151,18 @@ p {
 }
 
 .awan-batik{
-    background: url('./awan_batik_1.png');
+    background-image: url('./awan_2.png');
     background-size: contain;
-    background-position: right;
-    max-width: 500px;
-    aspect-ratio: auto 1/1;
-    position: absolute;
+    background-position: left;
     width: 100%;
-    top: 200px;
-    z-index: -1;
 }
 
 .wrapper .home img{
-    max-width: 250px;
-    width: 100%;
+    width: 50%;
 }
+
+.home{
+    display: flex;
+    flex-direction: row;
+}
+
