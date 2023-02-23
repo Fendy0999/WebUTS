@@ -181,7 +181,7 @@ p {
     background-color: #585C7B;
     color: white;
     padding: 20px;
-    height: 500px;
+    height: 400px;
 }
 
 .right-column {
@@ -189,5 +189,27 @@ p {
     background-color: #C47F9B;
     color: white;
     padding: 20px;
-    height: 500px;
+    height: 400px;
+}
+
+.container-content {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.left-column-content {
+    justify-content: center;
+    flex: 1;
+    color: black;
+    padding: 150px;
+    height: 400px;
+}
+
+.right-column-content {
+    justify-content: center;
+    flex: 1;
+    color: black;
+    padding: 150px;
+    height: 400px;
 }
