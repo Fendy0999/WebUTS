@@ -166,3 +166,28 @@ p {
     flex-direction: row;
 }
 
+.our-goals {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.left-column {
+    flex: 1;
+    background-color: #585C7B;
+    color: white;
+    padding: 20px;
+    height: 500px;
+}
+
+.right-column {
+    flex: 1;
+    background-color: #C47F9B;
+    color: white;
+    padding: 20px;
+    height: 500px;
+}
