@@ -10,8 +10,11 @@
 body {
     margin: 0px;
     padding: 0px;
-    font-family: 'Open Sans ', sans-serif;
+    font-family: 'Open Sans ', Arial, Helvetica, sans-serif;
     background-color: #f5f5dc;
+    background-image: url(background1.png);
+    width: 100%;
+    height: 100%;
 }
 
 nav{
@@ -47,11 +50,12 @@ nav {
     margin: auto;
     display: flex;
     line-height: 80px;
-    position: relative;
+    position: fixed;
     top: 0;
     background: #f5f5dc;
+    background-image: url(background1.png);
     z-index: 1;
-    border-bottom: 1px solid #364f6b;
+    border-bottom: #f5f5dc;
 }
 
 nav ul {
@@ -89,25 +93,25 @@ section img{
 }
 
 .kolom {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 100px;
+    margin-bottom: 60px;
 }
 
 .kolom .deskripsi {
-    font-size: 20px;
+    font-size: 45px;
     font-weight: bold;
-    font-family: 'comic sans ms';
+    font-family: 'Lato';
     color: #364f6b;
 }
 
-h2 {
-    font-family: 'comic sans ms';
-    font-weight: 800;
+h3 {
+    font-family: 'Lato';
+    font-weight: 400;
     font-size: 45px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     color: #364f6b;
     width: 100%;
-    line-height: 50px;
+    line-height: 55px;
 }
 
 a.tbl-biru {
@@ -150,20 +154,16 @@ p {
     width: 100%;
 }
 
-.awan-batik{
-    background-image: url('./awan_2.png');
-    background-size: contain;
-    background-position: left;
-    width: 100%;
-}
-
 .wrapper .home img{
-    width: 50%;
+    width: 45%;
+    background-position: right;
+    float: right;
 }
 
 .home{
     display: flex;
     flex-direction: row;
+    height: 100%;
 }
 
 .our-goals {
@@ -181,7 +181,7 @@ p {
     background-color: #585C7B;
     color: white;
     padding: 20px;
-    height: 400px;
+    height: 350px;
 }
 
 .right-column {
@@ -189,27 +189,42 @@ p {
     background-color: #C47F9B;
     color: white;
     padding: 20px;
-    height: 400px;
+    height: 350px;
 }
 
 .container-content {
     display: flex;
     flex-direction: row;
     text-align: center;
+    padding: 4vh;
 }
 
 .left-column-content {
     justify-content: center;
     flex: 1;
     color: black;
-    padding: 150px;
+    padding-left: 15vh;
     height: 400px;
+    margin-right: 70px;
 }
 
 .right-column-content {
     justify-content: center;
     flex: 1;
     color: black;
-    padding: 150px;
-    height: 400px;
+    padding: 4vh;
+    height: 300px;
+    margin-right: 20px;
 }
+
+.left-column-content img {
+    width: 38%;
+    height: 250px;
+    margin-left: 30px;
+}
+
+.right-column-content img {
+    width: 38%;
+    height: 220px;
+    margin-right: 10px;
+}   
