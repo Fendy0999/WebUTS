@@ -29,7 +29,7 @@ body {
     background-color: #f5f5dc;
     background-image: url(assets/images/background1.png);
     height: 100%;
-    text-align: left;
+    text-align: left;   
 }
 
 nav{
@@ -67,8 +67,7 @@ nav {
     line-height: 100px;
     position: fixed;
     top: 0;
-    background: #f5f5dc;
-    background-image: url(assets/images/background1.png);
+    background: #f5f5dc00;
     z-index: 1;
     border-bottom: #f5f5dc;
 }
@@ -110,19 +109,30 @@ section img{
 .kolom {
     margin-top: 100px;
     margin-bottom: 50px;
+    width: 50%;
+}
+
+.kolom_judul{
+    text-align: center;
+}
+
+.kolom2{
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .kolom .deskripsi {
     font-size: 25px;
     font-weight: 1px;
-    font-family: 'Poppins' sans-serif;
-
+    font-family: 'Poppins', sans-serif;
 }
 
 h3 {
-    font-family: 'Montserrat' sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 20px;
-    font-size: 60px;
+    font-size: 50px;
     width: 100%;
     line-height: 55px;
 }
@@ -168,18 +178,15 @@ p {
 }
 
 .wrapper .home img{
-    width: 45%;
-    height: 35%;
-    margin-left: 15px;
-    float: right;
-
+    width: 90%;
+    /* margin-left: 15px; */
 }
 
 .home{
     display: flex;
     flex-direction: row;
     height: 100%;
-    text-align: justify;
+    /* text-align: justify; */
 }
 
 .our-goals {
@@ -249,7 +256,6 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 50px;
 }
 
 .product-list h1 {
@@ -274,6 +280,24 @@ p {
     border: none;
     background-color: none;
     cursor: pointer;
+    background-color: white;
+}
+
+.skincare-section {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.skincareimages {
+    width: 300px;
+    margin: 20px;;
+}
+
+.modifedimg {
+    width: 100%;
+    display: flex;
+    padding: 20px;
 }
 
 footer {
@@ -283,7 +307,7 @@ footer {
     right: 0;
     background: #484848;
     height: auto;
-    width: 100vw;
+    /* width: 100vw; */
     font-family: "Poppins";
     padding-top: 25px;
     color: white;
@@ -337,7 +361,7 @@ footer {
 
 .footer-bottom {
     background-color: #484848;
-    width: 100vw;
+    /* width: 100vw; */
     padding: 10px 0;
     text-align: center;
 }
