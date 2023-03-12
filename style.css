@@ -257,6 +257,7 @@ section img{
     width: 50%;
     justify-content: flex-end;
     align-items: center;
+    margin: 0 0 0 5px;
 }
 
 .kolom .deskripsi {
@@ -265,17 +266,19 @@ section img{
     font-family: 'Poppins', sans-serif;
 }
 
-h3 {
+.kolom h3 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 20px;
     font-size: 45px;
     width: 100%;
     line-height: 55px;
+    text-align: justify;
 }
 
-p {
+.kolom p {
     margin: 10px 0px 10px 0px;
     padding: 10px 0px 10px 0px;
+    text-align: justify;
 }
 
 .tengah {
