@@ -22,14 +22,11 @@
 }
 
 body {
-    min-height: 100vh;
-    color: black;
     margin: 0px;
     padding: 0px;
     padding-top: 30px;
     font-family: 'Poppins', sans-serif;
-    background-color: #f5f5dc;
-    background-image: url(assets/images/background1.png);
+    background-color: #ffffff;
     height: 100%;
     text-align: left;   
 }
@@ -170,6 +167,70 @@ header{
     }
 }
 
+
+nav{
+    justify-content: center;
+}
+
+.wrapper-nav{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25rem;
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 30px;
+    font-weight: 800;
+    float: left;
+    font-family: Poppins;
+    color: black;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 100px;
+    position: fixed;
+    top: 0;
+    background: #ffffff;
+    z-index: 1;
+    border-bottom: #ffffff;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
 section {
     margin: auto;
     display: flex;
@@ -207,7 +268,7 @@ section img{
 h3 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 20px;
-    font-size: 50px;
+    font-size: 45px;
     width: 100%;
     line-height: 55px;
 }
@@ -249,7 +310,7 @@ p {
     background-color: #585C7B;
     color: white;
     padding: 50px;
-    height: 350px;
+    height: 400px;
 }
 
 .right-column {
@@ -257,7 +318,7 @@ p {
     background-color: #C47F9B;
     color: white;
     padding: 50px;
-    height: 350px;
+    height: 400px;
 }
 
 .container-content {
@@ -326,23 +387,6 @@ p {
     background-color: none;
     cursor: pointer;
     background-color: white;
-}
-
-.skincare-section {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-}
-
-.skincareimages {
-    width: 300px;
-    margin: 20px;;
-}
-
-.modifedimg {
-    width: 100%;
-    display: flex;
-    padding: 20px;
 }
 
 footer {
