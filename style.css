@@ -26,11 +26,147 @@ body {
     padding: 0px;
     padding-top: 30px;
     font-family: 'Poppins', sans-serif;
-    background-color: #f5f5dc;
-    background-image: url(assets/images/background1.png);
+    background-color: #ffffff;
     height: 100%;
     text-align: left;   
 }
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 28px 12%;
+    transition: all .50s ease;
+}
+
+.navbar a {
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.navbar img {
+    float: left;
+    height: 50px;
+    margin-right: 10px
+}
+
+.navbar-menu {
+    display: flex;
+}
+
+.navbar-menu a {
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 5px 0;
+    margin: 0px 30px;
+    transition: all .50s ease;
+}
+
+.navbar-menu a:hover {
+    color: brown;
+}
+
+.navbar-menu a.active {
+    color: red;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+}
+
+.main a {
+    margin-right: 25px;
+    margin-left: 10px;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: all .50s ease;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.user i {
+    color: black;
+    font-size: 20px;
+    margin-right: 7px;
+}
+
+.main a:hover {
+    color: black;
+}
+
+#menu-icon {
+    font-size: 35px;
+    color: black;
+    cursor: pointer;
+    z-index: 10001;
+    display: none;
+}
+
+@media (max-width: 1280px) {
+    header {
+        transition: 14px 2%;
+        padding: 14px 2%
+    }
+
+    .navbar-menu a{
+        padding: 5px 0;
+        margin: 0px 20px;
+    }
+}
+
+@media (max-width: 1090px) {
+    #menu-icon {
+        display: block;
+    }
+    .navbar-menu {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 270px;
+        height: 29vh;
+        background-color: silver;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        border-radius: 10px;
+        transition: all .50s ease;
+    }
+
+    .navbar-menu a{
+        display: block;
+        margin: 12px 0;
+        padding: 0px 25px;
+        transition: all .050s ease;
+    }
+
+    .navbar-menu a:hover {
+        color: black;
+        transform: translateY(5px);
+    }
+
+    .navbar-menu a.active{
+        color: black;
+    }
+
+    .navbar-menu.open {
+        right: 2%;
+    }
+}
+
 
 nav{
     justify-content: center;
@@ -43,7 +179,7 @@ nav{
 }
 
 .wrapper {
-    max-width: 1100px;
+    max-width: 1000px;
     margin: auto;
     position: relative;
 }
@@ -52,7 +188,7 @@ nav{
     font-size: 30px;
     font-weight: 800;
     float: left;
-    font-family: Courier;
+    font-family: Poppins;
     color: black;
 }
 
@@ -67,9 +203,9 @@ nav {
     line-height: 100px;
     position: fixed;
     top: 0;
-    background: #f5f5dc00;
+    background: #ffffff;
     z-index: 1;
-    border-bottom: #f5f5dc;
+    border-bottom: #ffffff;
 }
 
 nav ul {
@@ -132,7 +268,7 @@ section img{
 h3 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 20px;
-    font-size: 50px;
+    font-size: 45px;
     width: 100%;
     line-height: 55px;
 }
@@ -281,23 +417,6 @@ p {
     background-color: none;
     cursor: pointer;
     background-color: white;
-}
-
-.skincare-section {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-}
-
-.skincareimages {
-    width: 300px;
-    margin: 20px;;
-}
-
-.modifedimg {
-    width: 100%;
-    display: flex;
-    padding: 20px;
 }
 
 footer {
