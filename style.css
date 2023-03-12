@@ -40,7 +40,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: transparent;
+    background: white;
     padding: 28px 12%;
     transition: all .50s ease;
 }
@@ -246,6 +246,7 @@ section img{
     margin-top: 100px;
     margin-bottom: 50px;
     width: 50%;
+
 }
 
 .kolom_judul{
@@ -314,7 +315,7 @@ p {
 }
 
 .wrapper .home img{
-    width: 90%;
+    width: 100%;
     /* margin-left: 15px; */
 }
 
@@ -396,27 +397,6 @@ p {
 
 .product-list h1 {
     margin:10px 0;
-}
-
-.buttonproduct {
-    width: fit-content;
-    flex-direction: row;
-    justify-content:10px; 
-    align-items: center;
-    text-align: center;
-    display: flex;
-}
-
-.btn1 {
-    font-size: 15px;
-    outline: none;
-    border-radius: 15px;
-    padding: 15px 20px;
-    margin: 0 5px;
-    border: none;
-    background-color: none;
-    cursor: pointer;
-    background-color: white;
 }
 
 footer {
