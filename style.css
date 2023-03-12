@@ -258,6 +258,7 @@ section img{
     width: 50%;
     justify-content: flex-end;
     align-items: center;
+    margin: 0 0 0 5px;
 }
 
 .kolom .deskripsi {
@@ -266,47 +267,19 @@ section img{
     font-family: 'Poppins', sans-serif;
 }
 
-h3 {
+.kolom h3 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 20px;
     font-size: 45px;
     width: 100%;
     line-height: 55px;
+    text-align: justify;
 }
 
-a.tbl-biru {
-    background: #3f72af;
-    border-radius: 20px;
-    margin-top: 20px;
-    padding: 15px 20px 15px 20px;
-    color: white;
-    cursor: pointer;
-    font-weight: bold;
-}
-
-a.tbl-biru:hover {
-    background: #fc5185;
-    text-decoration: none;
-}   
-
-a.tbl-pink {
-    background: #fc5185;
-    border-radius: 20px;
-    margin-top: 20px;
-    padding: 15px 20px 15px 20px;
-    color: white;
-    cursor: pointer;
-    font-weight: bold;
-}
-
-a.tbl-pink:hover {
-    background: #3f72af;
-    text-decoration: none;
-}
-
-p {
+.kolom p {
     margin: 10px 0px 10px 0px;
     padding: 10px 0px 10px 0px;
+    text-align: justify;
 }
 
 .tengah {
@@ -315,7 +288,7 @@ p {
 }
 
 .wrapper .home img{
-    width: 100%;
+    width: 90%;
     /* margin-left: 15px; */
 }
 
