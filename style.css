@@ -40,7 +40,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: transparent;
+    background: white;
     padding: 28px 12%;
     transition: all .50s ease;
 }
@@ -86,7 +86,7 @@ header{
 .main a {
     margin-right: 25px;
     margin-left: 10px;
-    color: black;
+    color: white;
     font-size: 1.1rem;
     font-weight: 500;
     transition: all .50s ease;
@@ -95,17 +95,25 @@ header{
 .user {
     display: flex;
     align-items: center;
-    padding: 5px;
+    padding: 15px 20px 15px 20px;
+    background-color: #252525;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
 }
 
-.user i {
-    color: black;
-    font-size: 20px;
-    margin-right: 7px;
+.register {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px 15px 20px;
+    background-color: #252525;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
 }
 
 .main a:hover {
-    color: black;
+    color: #808080;
 }
 
 #menu-icon {
@@ -246,6 +254,7 @@ section img{
     margin-top: 100px;
     margin-bottom: 50px;
     width: 50%;
+
 }
 
 .kolom_judul{
@@ -269,7 +278,7 @@ section img{
 .kolom h3 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 20px;
-    font-size: 45px;
+    font-size: 43px;
     width: 100%;
     line-height: 55px;
     text-align: justify;
@@ -313,7 +322,15 @@ section img{
     background-color: #585C7B;
     color: white;
     padding: 50px;
-    height: 400px;
+    height: 300px;
+}
+
+.left-column h1 {
+    text-align: center;
+}
+
+.left-column p {
+    text-align: justify;
 }
 
 .right-column {
@@ -321,7 +338,7 @@ section img{
     background-color: #C47F9B;
     color: white;
     padding: 50px;
-    height: 400px;
+    height: 300px;
 }
 
 .container-content {
@@ -371,37 +388,16 @@ section img{
     margin:10px 0;
 }
 
-.buttonproduct {
-    width: fit-content;
-    flex-direction: row;
-    justify-content:10px; 
-    align-items: center;
-    text-align: center;
-    display: flex;
-}
-
-.btn1 {
-    font-size: 15px;
-    outline: none;
-    border-radius: 15px;
-    padding: 15px 20px;
-    margin: 0 5px;
-    border: none;
-    background-color: none;
-    cursor: pointer;
-    background-color: white;
-}
-
 footer {
     position: relative;
     bottom: 0;
     left: 0;
     right: 0;
-    background: #484848;
+    background: black;
     height: auto;
     /* width: 100vw; */
     font-family: "Poppins";
-    padding-top: 25px;
+    padding-top: 10px;
     color: white;
 }
 
@@ -452,7 +448,7 @@ footer {
 }
 
 .footer-bottom {
-    background-color: #484848;
+    background-color: black;
     /* width: 100vw; */
     padding: 10px 0;
     text-align: center;
@@ -463,3 +459,4 @@ footer {
     word-spacing: 2px;
     text-transform: capitalize;
 }
+
