@@ -428,3 +428,44 @@ a.tbl-hitam:hover {
     background: #C47F9B;
     text-decoration: none;
 }
+
+.product-container {
+    display: flex;
+    padding: 170px;
+    padding-top: 10px;
+  }
+  
+  .product {
+    width: 250px;
+    text-align: center;
+  }
+  
+  .product img {
+    width: 90%;
+  }
+  
+  .product h3 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .product p {
+    margin-top: 3px;
+    font-size: 11px;
+    color: #808080;
+    text-align: justify;
+  }
+  
+.product h4 {
+    color:rgb(59, 59, 59);
+    font-size: 14px;
+    margin-top: 5px;
+    text-align: left;
+}
+
+  .product span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
