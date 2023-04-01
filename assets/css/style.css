@@ -10,17 +10,17 @@
 
 @font-face {
     font-family: Poppins;
-    src: url(Poppins-Regular.ttf);
+    src: url('../font/Poppins-Regular.ttf');
     font-weight: normal;
     font-style: normal;
 }
 
-@font-face {
+/* @font-face {
     font-family: Montserrat;
-    src: url(montserrat.regular.ttf);
+    src: url(/assets/font/montserrat.regular.ttf) format("ttf");
     font-weight: normal;
     font-style: normal;
-}
+} */
 
 body {
     margin: 0px;
@@ -42,7 +42,7 @@ header{
     align-items: center;
     justify-content: space-between;
     background: white;
-    padding: 28px 12%;
+    padding: 18px 10.5%;
     transition: all .50s ease;
 }
 
@@ -66,55 +66,17 @@ header{
     color: black;
     font-size: 1.1rem;
     font-weight: 500;
-    padding: 5px 0;
+    padding: 5px 0px;
     margin: 0px 30px;
     transition: all .50s ease;
 }
 
 .navbar-menu a:hover {
-    color: brown;
+    color: #252525;
 }
 
 .navbar-menu a.active {
-    color: black;
-}
-
-.main {
-    display: flex;
-    align-items: center;
-}
-
-.main a {
-    margin-right: 25px;
-    margin-left: 10px;
-    color: white;
-    font-size: 1.1rem;
-    font-weight: 500;
-    transition: all .50s ease;
-}
-
-.user {
-    display: flex;
-    align-items: center;
-    padding: 15px 20px 15px 20px;
-    background-color: #252525;
-    border-radius: 20px;
-    cursor: pointer;
-    color: white;
-}
-
-.register {
-    display: flex;
-    align-items: center;
-    padding: 15px 20px 15px 20px;
-    background-color: #252525;
-    border-radius: 20px;
-    cursor: pointer;
-    color: white;
-}
-
-.main a:hover {
-    color: #808080;
+    color: #C47F9B;
 }
 
 #menu-icon {
@@ -125,57 +87,6 @@ header{
     display: none;
 }
 
-@media (max-width: 1280px) {
-    header {
-        transition: 14px 2%;
-        padding: 14px 2%
-    }
-
-    .navbar-menu a{
-        padding: 5px 0;
-        margin: 0px 20px;
-    }
-}
-
-@media (max-width: 1090px) {
-    #menu-icon {
-        display: block;
-    }
-    .navbar-menu {
-        position: absolute;
-        top: 100%;
-        right: -100%;
-        width: 270px;
-        height: 29vh;
-        background-color: silver;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        border-radius: 10px;
-        transition: all .50s ease;
-    }
-
-    .navbar-menu a{
-        display: block;
-        margin: 12px 0;
-        padding: 0px 25px;
-        transition: all .050s ease;
-    }
-
-    .navbar-menu a:hover {
-        color: black;
-        transform: translateY(5px);
-    }
-
-    .navbar-menu a.active{
-        color: black;
-    }
-
-    .navbar-menu.open {
-        right: 2%;
-    }
-}
-
 .wrapper-nav{
     display: flex;
     flex-wrap: wrap;
@@ -183,8 +94,8 @@ header{
 }
 
 .wrapper {
-    max-width: 1000px;
     margin: auto;
+    padding: 0 160px;
     position: relative;
 }
 
@@ -221,24 +132,28 @@ header{
     margin: 0 0 0 5px;
 }
 
+.homelogo{
+    padding-top: 10px;
+}
+
 .kolom .deskripsi {
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 1px;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins'; */
 }
 
 .kolom h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 18px;
-    font-size: 38px;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-weight: 20px;
+    font-size: 48px;
     width: 100%;
     line-height: 50px;
     text-align: left;
 }
 
 .kolom p {
-    margin: 10px 0px 10px 0px;
-    padding: 10px 0px 10px 0px;
+    /* margin: 10px 0px; */
+    padding: 10px 0px;
     text-align: justify;
 }
 
@@ -274,7 +189,7 @@ header{
     flex: 1;
     background-color: #585C7B;
     color: white;
-    padding: 50px 100px;
+    padding: 50px 165px 50px 100px;
 }
 
 .left-column h1 {
@@ -289,7 +204,7 @@ header{
     flex: 1;
     background-color: #C47F9B;
     color: white;
-    padding: 50px 100px;
+    padding: 50px 100px 50px 165px;
 }
 
 .right-column p {
@@ -300,36 +215,32 @@ header{
     display: flex;
     flex-direction: row;
     text-align: center;
-    padding: 5vh;
+    padding: 0px 165px;
 }
 
 .left-column-content {
     justify-content: center;
     flex: 1;
     color: black;
-    padding-left: 15vh;
     height: 400px;
-    margin-right: 200px;
-    /* margin-bottom: 50%; */
+    align-items: center;
 }
 
 .right-column-content {
     justify-content: center;
     flex: 1;
     color: black;
-    padding: 4vh;
-    height: 100px;
-    margin-right: 35px;
+    height: 400px;
+    align-items: center;
+    /* margin-right: 35px; */
 }
 
 .left-column-content img {
     height: 250px;
-    margin-left: 30px;
 }
 
 .right-column-content img {
-    height: 215px;
-    margin-right: 5px;
+    height: 250px;
 } 
 
 .product-list {
@@ -337,7 +248,7 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 100px;
+    padding-top: 48px;
 }
 
 footer {
@@ -345,7 +256,7 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
-    background: black;
+    background: #808080;
     height: auto;
     /* width: 100vw; */
     font-family: "Poppins";
@@ -400,7 +311,7 @@ footer {
 }
 
 .footer-bottom {
-    background-color: black;
+    background-color: #808080;
     /* width: 100vw; */
     padding: 10px 0;
     text-align: center;
@@ -417,7 +328,7 @@ a.tbl-hitam {
     align-items: center;
     padding: 10px;
     background-color: #585C7B;
-    border-radius: 20px;
+    border-radius: 12px;
     cursor: pointer;
     color: white;
     width: 122px;
@@ -431,7 +342,7 @@ a.tbl-hitam:hover {
 
 .product-container {
     display: flex;
-    padding: 100px;
+    padding: 0px 140px;
     padding-top: 10px;
     padding-bottom: 3px;
     justify-content: center;
@@ -461,7 +372,7 @@ a.tbl-hitam:hover {
   .product p {
     margin-top: 3px;
     font-size: 11px;
-    color: #808080;
+    color: #5a5454;
     text-align: justify;
   }
   
@@ -484,4 +395,96 @@ a.tbl-hitam:hover {
 .product-container{
     display: flex;
     /* align-content: center; */
+}
+
+.sosmed {
+    display: flex;
+    align-items: left;
+
+}
+
+.sosmed li {
+    margin: 0 30px;
+}
+
+.sosmed a {
+    text-decoration: none;
+    color: black;
+}
+
+.sosmed a i {
+    font-size: 2rem;
+    transition: color .4s ease;
+}
+
+.sosmed a:hover i {
+    color: #585C7B;
+}
+
+@media (max-width: 1280px) {
+    header {
+        transition: 14px 2%;
+        padding: 14px 2%
+    }
+
+    .navbar-menu a{
+        padding: 5px 0;
+        margin: 0px 20px;
+    }
+}
+
+@media (max-width: 1090px) {
+    #menu-icon {
+        display: block;
+    }
+    .navbar-menu {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 270px;
+        height: 29vh;
+        background-color: silver;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        border-radius: 10px;
+        transition: all .50s ease;
+    }
+
+    .navbar-menu a{
+        display: block;
+        margin: 12px 0;
+        padding: 0px 25px;
+        transition: all .050s ease;
+    }
+
+    .navbar-menu a:hover {
+        color: black;
+        transform: translateY(5px);
+    }
+
+    .navbar-menu a.active{
+        color: black;
+    }
+
+    .navbar-menu.open {
+        right: 2%;
+    }
+    .home{
+        flex-direction: column-reverse;
+    }
+
+    .home .kolom, .home .kolom2{
+        width: 100%;
+        padding: 30px;
+    }
+
+    .kolom2{
+        margin: 0;
+        justify-content: center;
+    }
+
+    .container{
+        flex-direction: column;
+    }
 }
