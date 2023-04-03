@@ -42,7 +42,7 @@ header{
     align-items: center;
     justify-content: space-between;
     background: white;
-    padding: 28px 12%;
+    padding: 18px 10.5%;
     transition: all .50s ease;
 }
 
@@ -66,7 +66,7 @@ header{
     color: black;
     font-size: 1.1rem;
     font-weight: 500;
-    padding: 5px 0;
+    padding: 5px 0px;
     margin: 0px 30px;
     transition: all .50s ease;
 }
@@ -77,45 +77,6 @@ header{
 
 .navbar-menu a.active {
     color: #C47F9B;
-}
-
-.main {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
-
-.main a {
-    /* margin-right: 25px; */
-    margin-left: 20px;
-    color: white;
-    font-size: 1.1rem;
-    font-weight: 500;
-    transition: all .50s ease;
-}
-
-.user {
-    display: flex;
-    align-items: center;
-    padding: 8px 12px;
-    background-color: #252525;
-    border-radius: 12px;
-    cursor: pointer;
-    color: white;
-}
-
-.register {
-    display: flex;
-    align-items: center;
-    padding: 8px 12px;
-    background-color: #252525;
-    border-radius: 14px;
-    cursor: pointer;
-    color: white;
-}
-
-.main a:hover {
-    color: #808080;
 }
 
 #menu-icon {
@@ -263,6 +224,7 @@ header{
     color: black;
     height: 400px;
     align-items: center;
+    padding-left: 10px;
 }
 
 .right-column-content {
@@ -271,6 +233,7 @@ header{
     color: black;
     height: 400px;
     align-items: center;
+    padding-right: 10px;
     /* margin-right: 35px; */
 }
 
@@ -290,76 +253,165 @@ header{
     padding-top: 48px;
 }
 
-footer {
-    position: relative;
+@media (max-height:880px) {
+    footer{
+        position: static;
+    }
+}
+
+.footer {
+    position: fixed;
     bottom: 0;
-    left: 0;
-    right: 0;
-    background: black;
-    height: auto;
-    /* width: 100vw; */
-    font-family: "Poppins";
-    padding-top: 10px;
+}
+
+.footer-distributed {
+    background-color: #2d2a30;
+    box-sizing: border-box;
+    widows: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 50px 50px 60px 50px;
+    margin-top: 80px;
+}
+
+.footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer-distributed .footer-left {
+    width: 30%;
+}
+
+.footer-distributed h3 {
     color: white;
+    font: normal 36px 'Poppins', cursive;
+    margin: 0;
 }
 
-.footer-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
+.footer-distributed h3 span {
+    color: #C47F9B;
+    font: normal 36px 'Poppins', cursive;
 }
 
-.footer-content img {
-    height: 70px;
-    background-position: center;
+.footer-distributed .footer-links {
+    color: white;
+    margin: 20px 0 12px;
 }
 
-.footer-content p {
-    max-width: 500px;
-    margin: 0 0 30px 0;
-    line-height: 10px;
-    font-size: 14px;
-}
-
-.socials {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 0 1rem 0;
-}
-
-.socials li {
-    margin: 0 30px;
-}
-
-.socials a {
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
     text-decoration: none;
-    color: white;
+    color: inherit;
 }
 
-.socials a i {
-    font-size: 2rem;
-    transition: color .4s ease;
-}
-
-.socials a:hover i {
-    color: white;
-}
-
-.footer-bottom {
-    background-color: black;
-    /* width: 100vw; */
-    padding: 10px 0;
-    text-align: center;
-}
-
-.footer-bottom p {
+.footer-distributed .footer-company-name {
+    color: #8f9296;
     font-size: 14px;
-    word-spacing: 2px;
-    text-transform: capitalize;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-center {
+    width: 35%;
+}
+
+.footer-distributed .footer-center i{
+    background-color: #33383b;
+    color: white;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i .fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: white;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+    color: #C47F9B;
+    text-decoration: none;
+}
+
+.footer-distributed .footer-right {
+    width: 30%;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: white;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+.footer-distributed .footer-icons a:hover {
+    background-color: #3f71ea;
+}
+
+.footer-links a:hover {
+    color: #3f71ea;
+}
+
+@media(max-width: 880px){
+    .footer-distributed .footer-links, .footer-distributed .footer-center, .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
 }
 
 a.tbl-hitam {
@@ -381,6 +433,7 @@ a.tbl-hitam:hover {
 
 .product-container {
     display: flex;
+    flex-wrap: wrap;
     padding: 0px 140px;
     padding-top: 10px;
     padding-bottom: 3px;
@@ -392,9 +445,10 @@ a.tbl-hitam:hover {
     text-align: center;
     padding: 20px;
     display: flex;
+    flex-wrap: wrap;
     flex: 1;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
   }
   
@@ -414,7 +468,11 @@ a.tbl-hitam:hover {
     color: #5a5454;
     text-align: justify;
   }
-  
+
+.halallogo {
+    width: 30px;
+}
+
 .product h4 {
     color:rgb(59, 59, 59);
     font-size: 13px;
@@ -436,7 +494,31 @@ a.tbl-hitam:hover {
     /* align-content: center; */
 }
 
-@media (max-width: 1280px) {
+.sosmed {
+    display: flex;
+    align-items: left;
+
+}
+
+.sosmed li {
+    margin: 0 30px;
+}
+
+.sosmed a {
+    text-decoration: none;
+    color: black;
+}
+
+.sosmed a i {
+    font-size: 2rem;
+    transition: color .4s ease;
+}
+
+.sosmed a:hover i {
+    color: #585C7B;
+}
+
+/* @media (max-width: 1280px) {
     header {
         transition: 14px 2%;
         padding: 14px 2%
@@ -502,4 +584,8 @@ a.tbl-hitam:hover {
     .container{
         flex-direction: column;
     }
+} */
+
+@media screen {
+    
 }
