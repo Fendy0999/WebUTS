@@ -41,8 +41,8 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: white;
-    padding: 18px 10.5%;
+    background: transparent;
+    padding: 28px 12%;
     transition: all .50s ease;
 }
 
@@ -66,17 +66,47 @@ header{
     color: black;
     font-size: 1.1rem;
     font-weight: 500;
-    padding: 5px 0px;
+    padding: 5px 0;
     margin: 0px 30px;
     transition: all .50s ease;
 }
 
 .navbar-menu a:hover {
-    color: #252525;
+    color: brown;
 }
 
 .navbar-menu a.active {
-    color: #C47F9B;
+    color: red;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+}
+
+.main a {
+    margin-right: 25px;
+    margin-left: 10px;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: all .50s ease;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.user i {
+    color: black;
+    font-size: 20px;
+    margin-right: 7px;
+}
+
+.main a:hover {
+    color: black;
 }
 
 #menu-icon {
@@ -446,10 +476,10 @@ a.tbl-hitam:hover {
     text-align: center;
     padding: 20px;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     flex: 1;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
   }
   
@@ -531,7 +561,7 @@ a.tbl-hitam:hover {
     }
 }
 
-@media (max-width: 1090px) {
+/* @media (max-width: 1090px) {
     #menu-icon {
         display: block;
     }
@@ -584,5 +614,56 @@ a.tbl-hitam:hover {
 
     .container{
         flex-direction: column;
+    }
+} */
+
+@media (max-width: 1280px) {
+    header {
+        transition: 14px 2%;
+        padding: 14px 2%
+    }
+
+    .navbar-menu a{
+        padding: 5px 0;
+        margin: 0px 20px;
+    }
+}
+
+@media (max-width: 1090px) {
+    #menu-icon {
+        display: block;
+    }
+    .navbar-menu {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 270px;
+        height: 29vh;
+        background-color: silver;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        border-radius: 10px;
+        transition: all .50s ease;
+    }
+
+    .navbar-menu a{
+        display: block;
+        margin: 12px 0;
+        padding: 0px 25px;
+        transition: all .050s ease;
+    }
+
+    .navbar-menu a:hover {
+        color: black;
+        transform: translateY(5px);
+    }
+
+    .navbar-menu a.active{
+        color: black;
+    }
+
+    .navbar-menu.open {
+        right: 2%;
     }
 }
