@@ -42,7 +42,7 @@ header{
     align-items: center;
     justify-content: space-between;
     background: transparent;
-    padding: 28px 12%;
+    padding: 28px 10.5%;
     transition: all .50s ease;
 }
 
@@ -561,62 +561,6 @@ a.tbl-hitam:hover {
     }
 }
 
-/* @media (max-width: 1090px) {
-    #menu-icon {
-        display: block;
-    }
-    .navbar-menu {
-        position: absolute;
-        top: 100%;
-        right: -100%;
-        width: 270px;
-        height: 29vh;
-        background-color: silver;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        border-radius: 10px;
-        transition: all .50s ease;
-    }
-
-    .navbar-menu a{
-        display: block;
-        margin: 12px 0;
-        padding: 0px 25px;
-        transition: all .050s ease;
-    }
-
-    .navbar-menu a:hover {
-        color: black;
-        transform: translateY(5px);
-    }
-
-    .navbar-menu a.active{
-        color: black;
-    }
-
-    .navbar-menu.open {
-        right: 2%;
-    }
-    .home{
-        flex-direction: column-reverse;
-    }
-
-    .home .kolom, .home .kolom2{
-        width: 100%;
-        padding: 30px;
-    }
-
-    .kolom2{
-        margin: 0;
-        justify-content: center;
-    }
-
-    .container{
-        flex-direction: column;
-    }
-} */
-
 @media (max-width: 1280px) {
     header {
         transition: 14px 2%;
@@ -666,4 +610,12 @@ a.tbl-hitam:hover {
     .navbar-menu.open {
         right: 2%;
     }
+}
+
+@media screen and (max-width: 768px) {
+    .home {
+        display: block;
+    }
+
+
 }
