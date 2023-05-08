@@ -23,8 +23,7 @@
 
             <p class="footer-company-name">Copyright © 2023<strong> NusantaraTeam</strong> All rights reserved</p>
         </div>
-        <div class="footer-center">
-   
+        <div class="footer-center">  
             <div>
                 <i class="fa fa-phone"></i>
                 <p>+62 813-1135-7480</p>

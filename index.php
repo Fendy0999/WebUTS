@@ -28,7 +28,7 @@
 
     <!--Product List-->
     <?php include'product.php'?>
-   
+
     <!--untuk footer-->
     <?php include'footer.php'?>
 </body>
