@@ -4,104 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nusantara Product</title>
+    <title>Product</title>
     <link rel="stylesheet" href="assets/css/style.css">
-
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
-
 </head>
 
 <body>
-    <header>
-        <div class="navbar">
-            <img src="assets/images/logoneww.png">
-                <a href="#logo" class="Logo"><b>Nusantara<br>Product</b></a></div>
-                <ul class="navbar-menu">
-                    <li><a href="#home" class="active">Home</a></li>
-                    <li><a href="#ourgoals">Our Goals</a></li>
-                    <li><a href="#listproduct">Product</a> </li>
-                    <li><a href="#about">About</a></li>
-                </ul>
-
-                <div class="main">
-                    <a href="#" class="user">Sign In</a>
-                    <a href="#" class="register">Register</a>
-                    <div class="bx bx-menu" id="menu-icon"></div>
-                </div>
-            </div>
-        </div>
-     </header>
-    
-        <div class="wrapper awan-batik">
-        <!-- untuk home -->
-
-        <div class="home" id="home">
-            <div class="kolom">
-                <p class="deskripsi">Halo Nusanprodusian...</p>
-                <h3>APA KALIAN SUKA MAKANAN DAN MINUMAN LOKAL?</h3>
-                <p>Disini kamu bukan hanya diberi informasi tentang makanan khas saja tapi kalian di juga akan disuguhkan bagaimana penampilan dari makanan itu sendiri dan juga kalian akan mengetahui lokasi dari penjual makanan-makanan khas Pontianak dan juga sedikit filosofi dari makanan itu sendiri.</p>
-                <a href="#listproduct" class="tbl-hitam">Lihat Produk</a>
-            </div>
-            <div class="kolom2">
-                <img class="homelogo" src="assets/images/Nusantara.png">
-            </div>
-        </div>
-    </div>
-
-    <!-- untuk ourgoals-->
-    <div class="our-goals" id="ourgoals">
-        <div class="kolom_judul">
-            <h1>Our Goals</h1>
-        </div>
-        <div class="container">
-            <div class="right-column">
-                <h1>Vision</h1>
-                <p>Makanan khas Pontianak dapat dikenal oleh seluruh masyarakat Indoneasia maupun manca negara. 
-                    Dengan adanya website, pengunjung atau turis akan mudah mencari lokasi restoran dan tempat berjualan makanan yang bersangkutan. Masyarakat atau penduduk lokal juga dapat bergabung untuk mengembangkan usahanya di dalam website ini.</p>
-            </div>
-            <div class="left-column">
-                <h1>Mission</h1>
-                <p>Memberikan kemudahan untuk wisatawan atau masyarakat lokal untuk mengetahui makanan khas yang ada di daerah Pontianak, sehingga tingkat konsumsi 
-                    produk lokal dapat meningkat dan menciptakan peluang lapangan kerja yang besar bagi masyarakat.</p>
-            </div>
-        
-        </div>
-    </div>
-
-    <!--untuk content1-->
-    <div class="container-content">
-        <div class="left-column-content">
-            <img src="assets/images/awarenesslogo.png">
-            <h1>Awareness</h1>
-            <p>Meningkatkan kesadaran masyarakat Indonesia untuk membeli makanan atau minuman dalam negeri</p>
-        </div>
-        <div class="right-column-content">
-            <img src="assets/images/exposurelogo.png">
-            <h1>Exposure</h1>
-            <p>Makanan Indonesia semakin dikenal luas oleh masyarakat lokal maupun turis Mancanegara</p>
-        </div>
-    </div>
-
-    <!--Product List-->
     <div id="listproduct">
         <div class="product-list">
             <div class="kolom_judul">
                 <h1>Product List</h1>
             </div>
-        </div>
+    </div>
     
         <!--F&B Section-->
         <div class="product-container">
             <div class="product">
-              <img src="assets/images/anginew.png" alt="Product Image">
+              <img src="assets/images/media/anginew.png" alt="Product Image">
               <h3>Es Krim Angi</h3>
               <p>Dikenal dengan nama lain es krim petrus sudah ada sejak tahun 1950, 
                 pembuatan es krim masih menggunakan cara manual.
@@ -116,7 +34,7 @@
             </div>
     
             <div class="product">
-              <img src="assets/images/lektausuannew.png" alt="Product Image">
+              <img src="assets/images/media/lektausuannew.png" alt="Product Image">
               <h3>Lek Tau Suan Gama</h3>
               <p>Nama makanan ini diambil dari bahasa Tionghoa dialek 
                 Tio Ciu yang jika diartikan kira-kira adalah Butiran Mutiara Kacang Hijau
@@ -132,7 +50,7 @@
             </div>
     
             <div class="product">
-                <img src="assets/images/ekmeng.png" alt="Product Image">
+                <img src="assets/images/media/ekmeng.png" alt="Product Image">
                 <h3>Bakmie Kepiting Ek Meng</h3>
                 <p>Bakmi ini disajikan dengan potongan daging kepiting yang memiliki tekstur kenyal dan lembut
                 </p>
@@ -148,7 +66,7 @@
             </div>
     
             <div class="product">
-                <img src="assets/images/bingkenew.png" alt="Product Image">
+                <img src="assets/images/media/bingkenew.png" alt="Product Image">
                 <h3>Bingke Al-Fajar</h3>
                 <p>Kue ini sangat terkenal di Pontianak dan banyak dicari ketika bulan Ramadhan tiba.
                     Bingke menjadi hidangan penutup yang banyak dicari
@@ -165,7 +83,7 @@
     
         <div class="product-container">
             <div class="product">
-              <img src="assets/images/kopiasiangnew.png" alt="Product Image">
+              <img src="assets/images/media/kopiasiangnew.png" alt="Product Image">
               <h3>Kopi Asiang</h3>
               <p>Warung Kopi Asiang sudah berdiri sejak tahun 1958, yang memiliki 
                 cita rasa kopi yang unik dan memiliki kekhasannya sendiri.
@@ -181,7 +99,7 @@
             </div>
     
             <div class="product">
-              <img src="assets/images/chaikuenew.png" alt="Product Image">
+              <img src="assets/images/media/chaikuenew.png" alt="Product Image">
               <h3>Chai Kue Ali</h3>
               <p>Makanan ini merupakan hasil olahan yang dibawa oleh keturunan
                  Tionghoa yang merantau dari Tiongkok kemudian datang dan menetap di Indonesia
@@ -196,7 +114,7 @@
             </div>
     
             <div class="product">
-                <img src="assets/images/cehuntiawnew.png" alt="Product Image">
+                <img src="assets/images/media/cehuntiawnew.png" alt="Product Image">
                 <h3>Ce Hun Tiau Ahien</h3>
                 <p>Perpaduan bongko/ati pari khas Pontianak dengan ce hun tiau dan 
                     cincaunya bisa menjadi pilihan hidangan penutup.
@@ -211,7 +129,7 @@
             </div>
     
             <div class="product">
-                <img src="assets/images/sotongnew.png" alt="Product Image">
+                <img src="assets/images/media/sotongnew.png" alt="Product Image">
                 <h3>Sotong Pangkong</h3>
                 <p>Asal kata Sotong Pangkong adalah dari bahasa Melayu, sering disalah artikan dengan 
                     cumi-cumi. Penyajian Sotong ini tergolong unik, karena harus dipakong.
@@ -228,7 +146,7 @@
     
         <div class="product-container">
             <div class="product">
-              <img src="assets/images/kwecapnew.png" alt="Product Image">
+              <img src="assets/images/media/kwecapnew.png" alt="Product Image">
               <h3>Kwe Cap Veteran</h3>
               <p>Makanan Tiong hoa yang non halal 
                 yang terdiri dari kulit babi dan potongan mie lebar/kwetiau yang terbuat dari tepung beras. 
@@ -243,7 +161,7 @@
             </div>
     
             <div class="product">
-              <img src="assets/images/pengkang.png" alt="Product Image">
+              <img src="assets/images/media/pengkang.png" alt="Product Image">
               <h3>Pengkang Peniti</h3>
               <p>Pengkang dikemas dengan bungkus daun pisang berbentuk segitiga yang dijepit dengan bambu dan dimakan dengan saus kerang pedas.
               </p>
@@ -257,7 +175,7 @@
             </div>
     
             <div class="product">
-                <img src="assets/images/akwangnew.png" alt="Product Image">
+                <img src="assets/images/media/akwangnew.png" alt="Product Image">
                 <h3>Nasi Akwang</h3>
                 <p>Restoran milik bapak Lai Sin Kong ini mempunyai 3 cabang dan sudah berdiri sejak tahun 80-an. 
                     Nasi dihidangnya dengan berbagai olahan daging babi.
@@ -273,7 +191,7 @@
             </div>
     
             <div class="product">
-                <img src="assets/images/kwekiatengnew.png" alt="Product Image">
+                <img src="assets/images/media/kwekiatengnew.png" alt="Product Image">
                 <h3>Kwe Khia Teng Moei Tjan</h3>
                 <p>Makanan berkuah yang mencampurkan topping daging babi beserta jeroannya ini sangat populer di Tanah Borneo
                 </p>
@@ -288,42 +206,5 @@
         </div>
     
     </div>
-   
-    <!--untuk footer-->
-    <footer class="footer-distributed" id="about">
-        <div class="footer-left">
-            <h3>Nusantara<span> Product</span></h3>
-
-            <p class="footer-links">
-                <a href="#home">Home</a>
-                |
-                <a href="#ourgoals">Our Goals</a>
-                |
-                <a href="#listproduct">Product</a>
-                |
-                <a href="#about">About</a>
-            </p>
-
-            <p class="footer-company-name">Copyright © 2023<strong> NusantaraTeam</strong> All rights reserved</p>
-        </div>
-        <div class="footer-center">
-   
-            <div>
-                <i class="fa fa-phone"></i>
-                <p>+62 813-1135-7480</p>
-            </div>
-            <div>
-                <i class="fa fa-envelope"></i>
-                <p><a href="#">Nusantarateam@gmail.com</a></p>
-            </div>
-        </div>
-
-        <div class="footer-right">
-            <p class="footer-company-about">
-                <span>About the Company</span>
-                <strong>Nusantara Product</strong> adalah sebuah website yang berguna untuk memperkenalkan makanan nusantara yakni Indonesia, kepada seluruh masyarakat dunia. Kami ingin membantu produk-produk UMKM lokal sehingga maju dan berkembang serta bisa dikenal lebih banyak lagi oleh masyarakat.
-            </p>
-        </div>
-    </footer>
 </body>
 </html>
